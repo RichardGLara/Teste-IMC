@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+    <title>TESTE - Manipulação com JS</title>
+</head>
+<body>
+    <div id="header">
+        <h1 id="titulo">Cálculo IMC</h1>
+        <h3 id="subtitulo">Calculadora de Índice de Massa Corpórea</h3>
+        <p>Entre com os dados abaixo, com a maior precisão possível:</p>
+    </div>
+    <div id="formulario">
+        <div class="forms">
+            <label for="texto">Nome:</label>
+            <input class="inplg" id="form_input_nome" type="text" placeholder="nome completo">
+        </div>
+        <div class="forms">
+            <label for="texto">Idade:</label>
+            <input class="inp" id="form_input_idade" type="number" placeholder="em anos">
+        </div>
+        <div class="forms">
+            <label for="texto">Peso:</label>
+            <input class="inp" id="form_input_peso" type="number" placeholder="em Kg">
+        </div>
+        <div class="forms">
+            <label for="texto">Altura:</label>
+            <input class="inp" id="form_input_altura" type="number" placeholder="em mts">
+        </div>
+        <div>
+            <button type="submit" onclick="imc()">calcular</button>
+        </div>
+    </div>
+    <div id="destino">
+        <h3 id="destino_texto">Diagnóstico e Tratamento:</h3>
+        <p id="destino_p">...</p>
+    </div>
+</body>
+</html>

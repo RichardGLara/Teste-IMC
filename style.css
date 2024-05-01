@@ -1,0 +1,81 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-top: 4px;
+    font: normal 13pt arial;
+    color: #383058;
+    background-color: #383058;
+}
+
+h1 {
+    font: bold 30pt arial;
+}
+
+button {
+    width: 120px;
+    height: 40px;
+    margin: 12px;
+    font: bold 14pt arial;
+    border-radius: 20px;
+}
+
+button:hover {
+    background-color: #383058;
+    color: #FFFFFF;
+}
+
+#header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #FFFFFF;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.7);
+}
+
+#formulario {
+    background-color: #FFFFFF;
+    padding: 6px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.7);
+}
+
+#destino {
+    background-color: #f8f2b7;
+    padding: 6px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+    min-height: 200px;
+    height: auto;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.7);
+}
+
+.forms {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    max-width: 400px;
+}
+
+.inplg {
+    margin-bottom: 8px;
+}
+
+.inp {
+    margin-bottom: 8px;
+    max-width: 80px;
+}
