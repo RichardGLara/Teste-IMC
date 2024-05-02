@@ -24,30 +24,30 @@ function resposta() {
         destino_p.innerText = "Nunc nisi ipsum, ultrices id congue non, venenatis eget libero. Nulla feugiat vestibulum erat sit amet egestas. Phasellus porta, nunc et cursus volutpat, arcu massa laoreet erat, ut mattis est massa vitae sem. Integer id ultricies diam. Proin posuere varius leo, vitae condimentum justo condimentum vel. In hac habitasse platea dictumst. In nec ligula id ante lacinia consequat non ut quam. Donec diam risus, blandit sed tristique quis, blandit et quam. Integer maximus ac mauris vel maximus. Donec convallis sit amet ex facilisis bibendum. Nunc id diam condimentum, porta leo sed, posuere erat. Donec et enim vel purus porta eleifend sed vel augue. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Curabitur lobortis nec massa sed imperdiet. Etiam aliquam justo eros, id eleifend est sollicitudin nec. Etiam condimentum lacus nec gravida tristique."
         window.alert(msg);
     }
-    if (calculo >= 18.5 && calculo < 25) {
+    else if (calculo >= 18.5 && calculo < 25) {
         msg = `${nome.value}, você está peso normal!`;
         console.log(msg);
         destino_p.innerText = "Arcu massa laoreet erat, ut mattis est massa vitae sem. Integer id ultricies diam. Proin posuere varius leo, vitae condimentum justo condimentum vel. In hac habitasse platea dictumst. In nec ligula id ante lacinia consequat non ut quam. Donec diam risus, blandit sed tristique quis, blandit et quam. Integer maximus ac mauris vel maximus. Donec convallis sit amet ex facilisis bibendum. Nunc id diam condimentum, porta leo sed, posuere erat. Donec et enim vel purus porta eleifend sed vel augue. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Curabitur lobortis nec massa sed imperdiet. Etiam aliquam justo eros, id eleifend est sollicitudin nec. Etiam condimentum lacus nec gravida tristique."
         window.alert(msg);
     }
-    if (calculo >= 25 && calculo < 30) {
+    else if (calculo >= 25 && calculo < 30) {
         msg = `${nome.value}, você está acima peso!`
         console.log(msg);
         destino_p.innerText = "In hac habitasse platea dictumst. In nec ligula id ante lacinia consequat non ut quam. Donec diam risus, blandit sed tristique quis, blandit et quam. Integer maximus ac mauris vel maximus. Donec convallis sit amet ex facilisis bibendum. Nunc id diam condimentum, porta leo sed, posuere erat. Donec et enim vel purus porta eleifend sed vel augue. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Curabitur lobortis nec massa sed imperdiet. Etiam aliquam justo eros, id eleifend est sollicitudin nec. Etiam condimentum lacus nec gravida tristique."
         window.alert(msg);
     }
-    if (calculo >= 30 && calculo < 35) {
+    else if (calculo >= 30 && calculo < 35) {
         msg = `${nome.value}, você está com Obesidade grau I !`
         console.log(msg);
         destino_p.innerText = "In nec ligula id ante lacinia consequat non ut quam. Donec diam risus, blandit sed tristique quis, blandit et quam. Integer maximus ac mauris vel maximus. Donec convallis sit amet ex facilisis bibendum. Nunc id diam condimentum, porta leo sed, posuere erat. Donec et enim vel purus porta eleifend sed vel augue. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Curabitur lobortis nec massa sed imperdiet. Etiam aliquam justo eros, id eleifend est sollicitudin nec. Etiam condimentum lacus nec gravida tristique."
         window.alert(msg);
     }
-    if (calculo >= 35 && calculo <= 40){
+    else if (calculo >= 35 && calculo <= 40){
         msg = `${nome.value}, você está com O besidade grau II !`
         console.log(msg); 
         window.alert(msg);
     }
-    if (calculo > 40) {
+    else if (calculo > 40) {
         msg1 = `${nome.value}, você está com Obesidade grau III !`
         msg2 = `Cuidado, BONECÃO DA MICHELIN`
         destino_p.innerText = "Vai morrer..."

@@ -1,18 +1,19 @@
 body {
+    background-image: url(./bg_liz03pq.jpg);
     display: flex;
     flex-direction: column;
-    align-items: start;
+    align-items: center;
     padding-left: 10%;
     padding-right: 20%;
     padding-top: 4px;
-    font: normal 13pt arial;
+    font: normal 12pt arial;
     color: #383058;
-    background-color: #383058;
+    
 }
 
-h1 {
-    font: bold 30pt arial;
-}
+/* h1 {
+    font: bold 24pt arial;
+} */
 
 button {
     width: 120px;
@@ -31,18 +32,18 @@ button:hover {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #FFFFFF;
+    background-color: #cfd2ff;
     padding-left: 20px;
     padding-right: 20px;
     border-radius: 10px;
     margin-bottom: 10px;
-    width: 100%;
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.7);
+    width: 80%;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.9);
 }
 
 #formulario {
     /*background-color: #FFFFFF;*/
-    background-image: url(./bg_liz01pq.jpg);
+    
     display: flex;
     justify-content: space-around;
     padding: 6px;
@@ -51,20 +52,18 @@ button:hover {
     border-radius: 10px;
     margin-bottom: 10px;
     width: 100%;
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.7);
 }
 
 #destino {
     background-color: #f8f2b7;
-    padding: 6px;
     padding-left: 20px;
     padding-right: 20px;
     border-radius: 10px;
     margin-bottom: 10px;
-    width: 100%;
+    width: 80%;
     min-height: 200px;
     height: auto;
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.7);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.9);
 }
 
 #form_input_nome {
@@ -74,16 +73,21 @@ button:hover {
 .forms {
     display: flex;
     flex-direction: column;
-    margin: 10px;
+    margin:4px;
     max-width: 300px;
+    padding: 2px;
+}
+
+.form_label {
+    margin-left: 10px;
 }
 
 .inplg {
-    margin-bottom: 8px;
+    margin: 4px;
 }
 
 .inp {
-    margin-bottom: 8px;
+    margin: 4px;
     max-width: 80px;
 }
 
@@ -94,5 +98,5 @@ button:hover {
     flex-direction: column;
     align-content: center;
     border-radius: 10px;
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.7);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.9);
 }
